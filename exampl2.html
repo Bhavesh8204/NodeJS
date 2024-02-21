@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function bhavesh() {
+            console.log("welcome to js");
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("mybtn").addEventListener("click", function () {
+                document.getElementById("mydiv").style.backgroundColor = "red";
+                bhavesh();
+                for(i=0;i<=5;i++){
+                    console.log(i);
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <button id="mybtn"> Click me</button>
+    <div id="mydiv" style="background-color: aqua;height: 100px; width: 100px;"></div>
+</body>
+
+</html>

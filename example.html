@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("myid").addEventListener("click", function () {
+                var name = prompt("enter your name")
+                document.getElementById("myh1").innerHTML = "hello " + name
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <button id="myid">Click me</button>
+    <h1 id="myh1"></h1>
+
+</body>
+
+</html>

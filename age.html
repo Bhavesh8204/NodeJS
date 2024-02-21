@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("myid").addEventListener("click", function () {
+                let age = prompt("enter your age")
+                let h1 = document.getElementById("myh1")
+                if (age > 18) {
+                    h1.innerHTML = "you are elegible for voating"
+                }
+                else {
+                    h1.innerHTML = "you are not elegible for voating"
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <button id="myid"> Click me</button>
+    <h1 id="myh1"></h1>
+</body>
+
+</html>
