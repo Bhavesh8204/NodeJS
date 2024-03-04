@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="list-container"></div>
+
+    <button id="add">add</button>
+    <button id="remove">remove</button>
+
+    <script>
+
+        const my_arr = ["10", "20", "30"]
+        let add = document.getElementById("add")
+        let remove = document.getElementById("remove")
+
+        console.log(my_arr)
+
+
+        add.addEventListener("click", () => {
+            value = prompt("enter a value")
+            my_arr.push(value)
+        })
+
+        let container = document.getElementById("list-container");
+        let ul = document.createElement("ul")
+
+        my_arr.forEach(function (items) {
+            let li = document.createElement("li")
+            li.textContent = items
+            ul.appendChild(li)
+        })
+
+        container.appendChild(ul)
+
+
+    </script>
+</body>
+
+</html>
