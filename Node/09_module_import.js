@@ -1,4 +1,4 @@
-const usemodule = require("./4032.js");
+const usemodule = require("./08_module_export");
 
 // usemodule()
 

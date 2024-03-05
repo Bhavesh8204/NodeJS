@@ -1,10 +1,10 @@
 // fs modual : file system modeal which is used to handle file
 
-//utf-8 is a character encoding system. it lets you represent character as ascii text.
+// utf-8 is a character encoding system. it lets you represent character as ascii text.
 
-//utf : unoicorn transformation formate
+// utf : unoicorn transformation formate
 
-//we can perform below operations with fs modual read,write,delete,update,rename.
+// we can perform below operations with fs modual read,write,delete,update,rename.
 
 const fs = require("fs")
 
