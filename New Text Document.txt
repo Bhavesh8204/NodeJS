@@ -65,3 +65,146 @@ You can also package them and distribute them via npm, so that the Node.js commu
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) What is the difference between Java & JavaScript?
+
+==> Java is an OOP programming language, and it helps to create applications that function in a virtual machine or browser, while JavaScript is an OOP scripting language. 
+
+2) What is JavaScript?
+
+==> JavaScript is a programming language used to create dynamic content for websites.
+
+3) What are the data types supported by JavaScript?
+
+==> JavaScript Datatypes:
+
+1) Primitive Datatypes:
+
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+
+2) Non-Primitive Datatypes:
+
+Array
+Object
+
+4) What are the scopes of a variable in JavaScript?
+
+==> JavaScript variables have different scopes, they are:
+
+Global Scope
+Local Scope
+Block Scope
+Function Scope
+
+5) What is Callback?
+
+==> A callback is a function passed as an argument to another function.
+
+6) What is Closure? Give an example.
+
+==> 
+
+7) What is the difference between the operators ‘==‘ & ‘===‘?
+
+==> The == operator compares the values of two variables after performing type conversion if necessary. On the other hand, the === operator compares the values of two variables without performing type conversion.
+
+8) What is the difference between null & undefined?
+
+==> null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet. null is an object.
+
+9) What would be the result of 2+5+”3″?
+
+==> 73
+
+10) What is the difference between Call & Apply?
+
+==> The only difference between call and apply is that call requires the arguments to be passed in one-by-one, and apply takes the arguments as an array.
+
+
