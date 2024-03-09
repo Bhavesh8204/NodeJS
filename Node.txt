@@ -1,0 +1,218 @@
+
+----- NodeJS Assignment -----
+
+
+1) What is the difference between Java & JavaScript?
+
+==> Java is an OOP programming language, and it helps to create applications that function in a virtual machine or browser, while JavaScript is an OOP scripting language. 
+
+2) What is JavaScript?
+
+==> JavaScript is a programming language used to create dynamic content for websites.
+
+3) What are the data types supported by JavaScript?
+
+==> JavaScript Datatypes:
+
+1) Primitive Datatypes:
+
+String
+Number
+Bigint
+Boolean
+Undefined
+Null
+Symbol
+
+2) Non-Primitive Datatypes:
+
+Array
+Object
+
+4) What are the scopes of a variable in JavaScript?
+
+==> JavaScript variables have different scopes, they are:
+
+Global Scope
+Local Scope
+Block Scope
+Function Scope
+
+5) What is Callback?
+
+==> A callback is a function passed as an argument to another function.
+
+6) What is Closure? Give an example.
+
+==> 
+
+7) What is the difference between the operators ‘==‘ & ‘===‘?
+
+==> The == operator compares the values of two variables after performing type conversion if necessary. On the other hand, the === operator compares the values of two variables without performing type conversion.
+
+8) What is the difference between null & undefined?
+
+==> null is an assigned value. It means nothing. undefined means a variable has been declared but not defined yet. null is an object.
+
+9) What would be the result of 2+5+”3″?
+
+==> 73
+
+10) What is the difference between Call & Apply?
+
+==> The only difference between call and apply is that call requires the arguments to be passed in one-by-one, and apply takes the arguments as an array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----  NODE JS -----
+
+
+JavaScript engine: used to convert JS code into machine code.
+
+It's responsible for converting the code into something that a computer can understand.
+
+JS engines are found in every browser and are usually developed by the browser's vendor.
+
+The most popular JS engines are V8, SpiderMonkey, and Chakra.
+
+Node.js is not a server; using Express.js, we can make a server. Express is a framework, and Node is a server environment.
+
+write() and writeHead() are two methods provided by the http.ServerResponse class, which is used to send a response back to the client during an HTTP request.
+
+writeHead: The writeHead method is used to send the response header to the client. It takes in three parameters: statusCode, statusMessage, and an optional headers object.
+
+Modules:
+
+Modules are a collection of code.
+Modules can be a single file or a collection of files or folders.
+Using modules, we can reduce our code, and they provide reusability.
+
+There are mainly three types of modules in Node:
+
+== Core module
+== Local module
+== Third-party module
+
+
+== Core modules: These are modules that are installed by default at the time of Node installation.
+   
+   Example: http, os, fs, path.
+
+FS Module: File System Module which is used to handle files.
+
+UTF-8 is a character encoding system. It lets you represent characters as ASCII text.
+
+UTF: Unicode Transformation Format.
+
+We can perform the following operations with the FS Module: read, write, delete, update, rename.
+
+Difference between readFile and readFileSync:
+
+readFile takes a callback which calls response.send.
+
+fs.readFileSync: You need to be aware it does not take a callback. So, your callback which calls response.send will never get called, and therefore, the response will never end; it will timeout.
+
+== Local Modules:
+
+These are modules created by the user, and we can export and import them from one file to another.
+
+Local modules are modules created locally in your Node.js application.
+
+These modules include different functionalities of your application in separate files and folders.
+
+You can also package them and distribute them via npm, so that the Node.js community can use them. We need module.exports to define what could be accessed from other files.
+
+
+== Third-party modules: These are modules created by other users, and we have to install them in our projects.
+
+   Example: npm install <module name>
+
+            npm i express, mongoose
+            
+
+Difference between argv and yargs:
+
+The first one is a function that returns an array containing the arguments given to the current running Node.js process.
+
+The second one is a library for building command-line interfaces.
+
+JSON:
+
+JSON stands for JavaScript Object Notation. It is a lightweight format for storing and transporting data.
+
+JSON is used when data is sent from a server to a web page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
